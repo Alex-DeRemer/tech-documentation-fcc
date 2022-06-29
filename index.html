@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <!-- Head element including the charset, viewport, link to CSS, and title -->
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+        <title>5 Important HTML Tags</title>
+    </head>
+    
+    <!-- Body element includes all Tech Doc content including nav and 5 sections -->
+    <body>
+        <main id="main-doc">
+
+            <!-- The Navbar element includes a header for the page and links to access every section -->
+            <nav id="navbar">
+                <header>Five HTML Tags</header>
+                <a href="#A_element" class="nav-link">A element</a>
+                <a href="#Span_element" class="nav-link">Span element</a>
+                <a href="#Img_element" class="nav-link">Img element</a>
+                <a href="#Div_element" class="nav-link">Div element</a>
+                <a href="#Ol_element" class="nav-link">Ol element</a>
+                <a href="#Reference" class="nav-link">Reference</a>
+            </nav>
+            <!-- Section 1 includes -->
+            <section class="main-section" id="A_element">
+                <header>
+                    <h2>A element</h2>
+                </header>
+                <p>In short, this is a tag that helps you make a link to a web page, 
+                   to your page, social media site, product within online store, etc... 
+                   The main attribute for this HTML tag is the href (Hypertext Reference) 
+                   attribute, where you put a link to a website you want to link to. The 
+                   other attribute is target, it can be used to open a link in a new window, 
+                   so that users do not lose focus on the current page. </p>
+                <p><i>An example of an <b>a</b> element:</i></p>
+                <code class="example">Click here to &#60;a href="https://google.com"&#62;<b>search</b>&#60;&#47;a&#62; anything you want!
+                </code>              
+            </section>
+
+            <!-- Section 2 includes -->
+            <section class="main-section" id="Span_element">
+                <header>
+                    <h2>Span element</h2>
+                </header> 
+                <p>The span tag groups text for which we want to have different styling. 
+                   A good example would be if we wanted to have a red word inside a sentence.</p>
+                <p><i>An example of an <b>span</b> element:</i></p>
+                <code class="example">I want to make this word &#60;span&#62;<b id="red">RED!</b>&#60;&#47;span&#62;
+                </code><br/>
+                <p><i>The CSS required to style the <b>span</b> element:</i></p>
+                <code class="example">span { <br/>
+                    color: red;<br/>
+                }</code>
+            </section>
+
+            <!-- Section 3 includes -->
+            <section class="main-section" id="Img_element">
+                <header>
+                    <h2>Img element</h2>
+                </header> 
+                <p>We use the IMG tag to show images. Considering that images can be within 
+                   files for your web page or anywhere online. In addition, the most important 
+                   attribute is src (source), which tells where the picture is. It is important
+                   to know that img elements are self-closing elements. <i>(This means they only
+                   need one tag that closes itself.)</i></p>
+                
+                <p><i>An example of an <b>img</b> element:<br/>
+                (This code will show this cute cat photo!)</i></p>
+                <code class="example">&#60;img href="https://img.freepik.com/free-vector/cute-happy-cat-laying-cartoon-vector-icon-illustration-animal-nature-icon-concept-isolated-premium-vector-flat-cartoon-style_138676-3738.jpg?t=st=1654520785~exp=1654521385~hmac=a53f3eee1b1470541e20468cf9fdce6850b6a736938130d36d4d21567eae5188&w=740"
+                alt="cute cat"&#47;&#62;
+                </code>
+                <img src="./imgs/cute-cat.jpg" alt="cute cat" />
+            </section>
+
+            <!-- Section 4 includes -->
+            <section class="main-section" id="Div_element">
+                <header>
+                    <h2>Div element</h2>
+                </header> 
+                <p>An element which is mostly used to group elements and to act as a template 
+                   for new controls. The div HTML tag is an element you will use to divide a 
+                   significant part of an HTML document from other parts. For example, imagine 
+                   you have a list of products on your web page, you would use a div for each product.</p>
+            </section>
+
+            <!-- Section 5 includes -->
+            <section class="main-section" id="Ol_element">
+                <header>
+                    <h2>Ol element</h2>
+                </header>
+                <p>Ordered list. Also includes &#60;LI&#62; <i>list items,</i> which will be numbered automatically. 
+                   As a result, this is very useful if you add more list items, because  the numbers 
+                   will always be in the right order.</p>
+                <p><i>An example of an <b>ol</b> element:</i></p>
+                <code class="example">&#60;ol&#62;<br/>
+                    &#60;li&#62;1.Item One&#60;&#47;li&#62;<br/>
+                    &#60;li&#62;2.Item Two&#60;&#47;li&#62;<br/>
+                    &#60;li&#62;3.Item Three&#60;&#47;li&#62;<br/>
+                    &#60;li&#62;4.Item Four&#60;&#47;li&#62;<br/>
+                    &#60;li&#62;5.Item Five&#60;&#47;li&#62;<br/>
+                    &#60;&#47;ol&#62;
+                </code>
+                <p>The result of this code will look something like this...</p>
+                <ol>
+                    <li>Item One</li>
+                    <li>Item Two</li>
+                    <li>Item Three</li>
+                    <li>Item Four</li>
+                    <li>Item Five</li>
+                </ol> 
+            </section>
+            <section class="main-section" id="Reference">
+                <header>
+                    <h2>Reference</h2>
+                </header>
+                <p>All of the info in this technical documentation is credited to
+                <a href="https://www.codebrainer.com/blog/top-10-html-tags">Code Brainer</a>.
+                </p>
+            </section>
+        </main>
+    </body>
+</html>
